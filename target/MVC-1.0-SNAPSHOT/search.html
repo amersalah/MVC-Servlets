@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>
+            Search Page
+        </title>
+        <link rel="stylesheet" type="text/css" href="css/search.css">
+    </head>
+
+    <body>
+        <h1>Search Form</h1>
+        <h4>Please Enter First Name or Last Name or Part of them</h4>
+           
+        <a href="controller?mod=logout">Logout</a>
+        
+        <b>Name</b> 
+        <form method="post" action="controller?flag=search" class="form-wrapper">
+            <input type="text" name="searchText">
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

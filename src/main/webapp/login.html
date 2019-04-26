@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/menubar.css">
+</head>
+
+<body onload="myLoadFunction()">
+
+    <h2>Login Form</h2>
+
+    <nav id="nav">
+        <div id='cssmenu'>
+            <ul>
+                <li><a href='register.html'>Register</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <form method="post" action="controller?flag=login" >
+
+        <div class="imgcontainer">
+            <img src="images/login.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+            <label for="uname"><b>Email</b></label>
+            <input type="text" placeholder="Enter Username" name="email" id="username" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+
+            <button type="submit" onclick="loginFunction()" >Login</button>
+            <label>
+                <input type="checkbox" name="remember" id="remember" checked="checked"> Remember me
+            </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
+
+</body>
+
+<script src="javascript/remember.js"></script>
+
+</html>

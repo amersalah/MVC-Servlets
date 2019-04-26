@@ -1,0 +1,12 @@
+com\amer\servlets\CookiesInseartion.class
+com\amer\dao\UserDao.class
+com\amer\controller\ControllerServlet.class
+com\amer\entity\User.class
+com\amer\servlets\Login.class
+com\amer\session\MySessionFactory.class
+com\amer\listeners\OnlineListener.class
+com\amer\servlets\Search.class
+com\amer\servlets\Logout.class
+com\amer\listeners\SessionEvent.class
+com\amer\servlets\CookiesTest.class
+com\amer\servlets\Register.class
